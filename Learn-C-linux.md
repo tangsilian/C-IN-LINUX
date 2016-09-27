@@ -16,8 +16,8 @@ objdump -S -d ./test
 ##makefile
 --first make the main progarm
 add.c
-#include "test.h"  
-#include <stdio.h>  
+ #include "test.h"  
+ #include <stdio.h>  
   
 int add(int a, int b)  
 {  
@@ -32,7 +32,7 @@ int main()
 }  
 
 --then make the sub.c 
-#include "test.h"  
+ #include "test.h"  
   
 int sub(int a, int b)  
 {  
@@ -40,12 +40,12 @@ int sub(int a, int b)
 }  
 
 the last make the program head tesh.h
-#ifndef _TEST_H  
-#define _TEST_H  
+ #ifndef _TEST_H  
+ #define _TEST_H  
   
 int add(int a, int b);  
 int sub(int a, int b);  
-#endif 
+ #endif 
 
 
 so  the point coming make the makefile page 
