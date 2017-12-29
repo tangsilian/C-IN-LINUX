@@ -1,6 +1,14 @@
 # C-IN-LINUX
-学习linux下c语言
-#dl.c
+
+
+
+--------
+## opendl
+### dl.c
 编译为动态链接文件
-#opendl.c
+
+### opendl.c
 主函数
+--------
+## resource
+lief patch elf文件的demo
